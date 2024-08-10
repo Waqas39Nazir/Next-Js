@@ -1,10 +1,14 @@
 import React from "react";
+import { Suspense } from "react";
+import Loading from "@/app/loading";
 
 const page = () => {
   return (
-    <div>
-      <h1>I am The Nested Page</h1>
-    </div>
+    <Suspense fallback={<Loading />}>
+      <div>
+        <h1>I am The Nested Page</h1>
+      </div>
+    </Suspense>
   );
 };
 

@@ -1,0 +1,6 @@
+# The Project One
+/project_01/node_modules
+/project_01/package-lock.json
+# The Project two
+/project-02/node_modules
+/project-02/package-lock.json

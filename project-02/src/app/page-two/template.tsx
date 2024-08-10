@@ -6,7 +6,7 @@ const Lemplate = () => {
 
   return (
     <div>
-      <h1>I am the Template lets test me baby</h1>
+      <h1>I am the Template lets test me</h1>
     </div>
   );
 };

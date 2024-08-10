@@ -22,7 +22,8 @@ export default function RootLayout({
           </li>
         </ul>
       </header>
-      {children} <footer>The Share Footer</footer>
+      {children}
+      <footer>The Share Footer</footer>
     </section>
   );
 }
